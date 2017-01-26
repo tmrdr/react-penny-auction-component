@@ -13,7 +13,7 @@ class Bid extends Component {
           <div className = "col-xs-12">
             <p>{this.props.title}</p>
             <img src={this.props.img} />
-            <p>{this.props.time}</p>
+            <p>{this.props.seconds_left}</p>
             <p>{this.props.price}</p>
             <button className="btn btn-warning">Bid Now</button>
           </div>
